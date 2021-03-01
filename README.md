@@ -26,14 +26,14 @@ Test on:
 package main
 
 import (
-	"fmt"
-	"github.com/IceSandwich/CookieJam"
-	"net/http"
-	"regexp"
+    "fmt"
+    "github.com/IceSandwich/CookieJam"
+    "net/http"
+    "regexp"
 )
 
 func main() {
-	client := &http.Client{}
+    client := &http.Client{}
 
     // Step 1. Create a cookies manager from firefox browser.
     // You can use CookieJam.NewFromChrome if you use chrome browser.
